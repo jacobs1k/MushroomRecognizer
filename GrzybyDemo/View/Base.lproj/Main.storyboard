@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GrzybyDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="bottomLeft" axis="vertical" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="EY0-Uw-Czf">
+                                <rect key="frame" x="5" y="64" width="383" height="580.33333333333337"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="aUa-6N-1tP">
+                                        <rect key="frame" x="0.0" y="0.0" width="383" height="75.333333333333329"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIT-FU-fCL" userLabel="capShape">
+                                                <rect key="frame" x="0.0" y="0.0" width="121.66666666666667" height="75.333333333333329"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="capShape"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Cap Shape"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DNO-z3-qMf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idd-P1-OKo" userLabel="capSurface">
+                                                <rect key="frame" x="130.66666666666666" y="0.0" width="121.66666666666666" height="75.333333333333329"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="capSurface" label="capSurface"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Cap Surface"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gIg-8h-7xG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azb-2B-YhC" userLabel="capColor">
+                                                <rect key="frame" x="261.33333333333331" y="0.0" width="121.66666666666669" height="75.333333333333329"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="capColor" label="capColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Cap Color"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c05-qf-8WL"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="gIP-VB-j2E">
+                                        <rect key="frame" x="0.0" y="84.333333333333343" width="383" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tty-3d-q77" userLabel="bruises">
+                                                <rect key="frame" x="0.0" y="0.0" width="121.66666666666667" height="75"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="bruises"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Bruises"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lRT-mc-bWd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8I-uf-Iyc" userLabel="odor">
+                                                <rect key="frame" x="130.66666666666666" y="0.0" width="121.66666666666666" height="75"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="odor" label="capShape"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Odor"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TIp-eW-4kz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2Y-Wu-T3U" userLabel="gillAttachment">
+                                                <rect key="frame" x="261.33333333333331" y="0.0" width="121.66666666666669" height="75"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="gillAttachment" label="gillAttachment"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Gill Attachment"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8U7-PU-I4Q"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="De3-Ov-dGO">
+                                        <rect key="frame" x="0.0" y="168.33333333333334" width="383" height="75.333333333333343"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAX-Yy-c8C" userLabel="gillSpacing">
+                                                <rect key="frame" x="0.0" y="0.0" width="121.66666666666667" height="75.333333333333329"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="gillSpacing" label="gillSpacing"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Gill Spacing"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ezE-dF-lf3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeI-So-YuS" userLabel="gillSize">
+                                                <rect key="frame" x="130.66666666666666" y="0.0" width="121.66666666666666" height="75.333333333333329"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="gillSize" label="gillSize"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Gill Size"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vcJ-yn-jiU"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czx-iY-3eI" userLabel="gillColor">
+                                                <rect key="frame" x="261.33333333333331" y="0.0" width="121.66666666666669" height="75.333333333333329"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="gillColor" label="gillColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Gill Color"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hb3-Im-NUg"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="314-Y8-iHd">
+                                        <rect key="frame" x="0.0" y="252.66666666666669" width="383" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRQ-4Q-U2L" userLabel="stalkShape">
+                                                <rect key="frame" x="0.0" y="0.0" width="121.66666666666667" height="75"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="stalkShape" label="stalkShape"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Stalk Shape"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="raZ-He-ULo"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCq-hy-CE9" userLabel="stalkRoot">
+                                                <rect key="frame" x="130.66666666666666" y="0.0" width="121.66666666666666" height="75"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="stalkRoot" label="stalkRoot"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Stalk Root"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WvK-xo-Ktw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H77-uo-ui2" userLabel="stalkSurfaceAboveRing">
+                                                <rect key="frame" x="261.33333333333331" y="0.0" width="121.66666666666669" height="75"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="stalkSurfaceAboveRing" label="stalkSurfaceAboveRing"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Stalk Surface Above Ring"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NRj-X5-m3h"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="RV6-pu-HBR">
+                                        <rect key="frame" x="0.0" y="336.66666666666669" width="383" height="75.333333333333314"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" restorationIdentifier="stalkSurfaceBelowRing" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqA-Fc-qpQ" userLabel="stalkSurfaceBelovRing">
+                                                <rect key="frame" x="0.0" y="0.0" width="121.66666666666667" height="75.333333333333329"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="stalkSurfaceBelovRing" label="stalkSurfaceBelovRing"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Stalk Surface Below Ring"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eeO-NR-yFT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2u-eY-CXQ" userLabel="stalkColorAboveRing">
+                                                <rect key="frame" x="130.66666666666666" y="0.0" width="121.66666666666666" height="75.333333333333329"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="stalkColorAboveRing" label="stalkColorAboveRing"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Stalk Color Above RIng"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yIi-3w-nKE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xl2-3Q-ZCD" userLabel="stalkColorBelowRing">
+                                                <rect key="frame" x="261.33333333333331" y="0.0" width="121.66666666666669" height="75.333333333333329"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="stalkColorBelowRing" label="stalkColorBelowRing"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Stalk Color Below Ring"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZJb-Xt-Rpk"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="KF0-ox-wVd">
+                                        <rect key="frame" x="0.0" y="421" width="383" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6R-23-8mJ" userLabel="veilColor">
+                                                <rect key="frame" x="0.0" y="0.0" width="121.66666666666667" height="75"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="veilColor" label="veilColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Veil Color"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V4R-wF-dj2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COd-Lf-83d" userLabel="ringNumber">
+                                                <rect key="frame" x="130.66666666666666" y="0.0" width="121.66666666666666" height="75"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="ringNumber" label="ringNumber"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Ring Number"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bKc-AW-Kfj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2e-43-4ao" userLabel="ringType">
+                                                <rect key="frame" x="261.33333333333331" y="0.0" width="121.66666666666669" height="75"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="ringType" label="ringType"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Ring Type"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d4K-iV-u4Y"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="BGd-aF-JkS">
+                                        <rect key="frame" x="0.0" y="504.99999999999994" width="383" height="75.333333333333314"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7LK-lK-6jI" userLabel="sporePrinColor">
+                                                <rect key="frame" x="0.0" y="0.0" width="121.66666666666667" height="75.333333333333329"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="sporePrinColor" label="sporePrinColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Spore Print Color"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kW1-hp-0hO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MY-0O-agh" userLabel="population">
+                                                <rect key="frame" x="130.66666666666666" y="0.0" width="121.66666666666666" height="75.333333333333329"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="population" label="population"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Population"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yz3-6h-J9x"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Myo-7y-vIS" userLabel="habitat">
+                                                <rect key="frame" x="261.33333333333331" y="0.0" width="121.66666666666669" height="75.333333333333329"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="habitat" label="habitat"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="Habitat"/>
+                                                <connections>
+                                                    <action selector="mushroomFeatureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="odG-kL-zB8"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="574.33000000000004" id="bAZ-YT-9CE"/>
+                                    <constraint firstAttribute="width" constant="383" id="zb0-Ai-ddC"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBl-vL-GtG" userLabel="enterButton">
+                                <rect key="frame" x="16" y="668" width="361" height="99"/>
+                                <accessibility key="accessibilityConfiguration" identifier="enterButton" label="enterButton"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="klc-cP-sX8"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Predict" cornerStyle="fixed"/>
+                                <connections>
+                                    <action selector="predictButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S5h-3g-ZcB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EY0-Uw-Czf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="9Gh-vN-O4q"/>
+                            <constraint firstItem="cBl-vL-GtG" firstAttribute="top" secondItem="EY0-Uw-Czf" secondAttribute="bottom" constant="23.670000000000002" id="IT1-MS-Gu3"/>
+                            <constraint firstItem="EY0-Uw-Czf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="Rgp-jX-n6w"/>
+                            <constraint firstItem="cBl-vL-GtG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dRL-CH-dtT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cBl-vL-GtG" secondAttribute="trailing" constant="16" id="eZz-7H-uB4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cBl-vL-GtG" secondAttribute="bottom" constant="51" id="jgJ-gH-Hyf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EY0-Uw-Czf" secondAttribute="trailing" constant="5" id="wzH-yT-gjw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bruisesButton" destination="tty-3d-q77" id="l9K-NF-8Li"/>
+                        <outlet property="capColorButton" destination="azb-2B-YhC" id="cnJ-wB-Brk"/>
+                        <outlet property="capShapeButton" destination="eIT-FU-fCL" id="hn9-R4-4Dh"/>
+                        <outlet property="capSurfaceButton" destination="idd-P1-OKo" id="dQi-cB-VD1"/>
+                        <outlet property="gilSpacingButton" destination="FAX-Yy-c8C" id="jf8-0m-qUu"/>
+                        <outlet property="gillAttachButton" destination="E2Y-Wu-T3U" id="Rl1-gW-t83"/>
+                        <outlet property="gillColorButton" destination="czx-iY-3eI" id="85W-di-l2b"/>
+                        <outlet property="gillSizeButton" destination="IeI-So-YuS" id="CpM-S2-nyV"/>
+                        <outlet property="habitatButton" destination="Myo-7y-vIS" id="WwQ-Vq-sYB"/>
+                        <outlet property="odorButton" destination="E8I-uf-Iyc" id="Tye-7b-sFa"/>
+                        <outlet property="populationButton" destination="9MY-0O-agh" id="Spf-dh-sG4"/>
+                        <outlet property="ringNumberButton" destination="COd-Lf-83d" id="n5m-a3-4JL"/>
+                        <outlet property="ringTypeButton" destination="D2e-43-4ao" id="gma-Bb-Grc"/>
+                        <outlet property="sporePrintColButton" destination="7LK-lK-6jI" id="5TC-ub-oTN"/>
+                        <outlet property="stalkColorAbvButton" destination="w2u-eY-CXQ" id="2bb-Jb-Mvd"/>
+                        <outlet property="stalkColorBelButton" destination="xl2-3Q-ZCD" id="kdh-ra-C5d"/>
+                        <outlet property="stalkRootButton" destination="ZCq-hy-CE9" id="vzH-G8-egY"/>
+                        <outlet property="stalkShapeButton" destination="bRQ-4Q-U2L" id="T09-lu-Xx9"/>
+                        <outlet property="stalkSurAbvButton" destination="H77-uo-ui2" id="DaG-8k-95J"/>
+                        <outlet property="stalkSurBelButton" destination="mqA-Fc-qpQ" id="WHU-lc-8oK"/>
+                        <outlet property="veilColorButton" destination="f6R-23-8mJ" id="Jyr-Tp-JzW"/>
+                        <segue destination="CS9-Ni-ir6" kind="show" identifier="ediableVCSegue" id="tJb-G8-hpF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-27.464788732394368"/>
+        </scene>
+        <!--Eadible Mushroom View Controller-->
+        <scene sceneID="g1n-4T-g8Q">
+            <objects>
+                <viewController id="CS9-Ni-ir6" customClass="EadibleMushroomViewController" customModule="GrzybyDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZKb-1t-fIA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CzP-2s-qUF">
+                                <rect key="frame" x="58" y="118" width="277" height="286"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExS-2Q-q4C">
+                                <rect key="frame" x="176" y="502.99999999999994" width="41.333333333333343" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WjT-cQ-N1w"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="WjT-cQ-N1w" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ExS-2Q-q4C" secondAttribute="trailing" id="EKu-Z2-uw2"/>
+                            <constraint firstItem="CzP-2s-qUF" firstAttribute="top" secondItem="WjT-cQ-N1w" secondAttribute="top" constant="118" id="H2F-AH-KfI"/>
+                            <constraint firstItem="ExS-2Q-q4C" firstAttribute="top" secondItem="CzP-2s-qUF" secondAttribute="bottom" constant="99" id="HMO-Dj-4tB"/>
+                            <constraint firstItem="CzP-2s-qUF" firstAttribute="leading" secondItem="WjT-cQ-N1w" secondAttribute="leading" constant="58" id="LMg-2K-ACD"/>
+                            <constraint firstItem="ExS-2Q-q4C" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WjT-cQ-N1w" secondAttribute="leading" id="MSP-Se-1bC"/>
+                            <constraint firstItem="WjT-cQ-N1w" firstAttribute="trailing" secondItem="CzP-2s-qUF" secondAttribute="trailing" constant="58" id="RfL-Ke-iHC"/>
+                            <constraint firstItem="ExS-2Q-q4C" firstAttribute="centerX" secondItem="ZKb-1t-fIA" secondAttribute="centerX" id="Ubx-WP-2WV"/>
+                            <constraint firstItem="WjT-cQ-N1w" firstAttribute="bottom" secondItem="CzP-2s-qUF" secondAttribute="bottom" constant="438" id="nsU-2E-Yfb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="DaC-OY-rBp"/>
+                    <connections>
+                        <outlet property="imageView" destination="CzP-2s-qUF" id="Vzg-cg-VhX"/>
+                        <outlet property="textLabel" destination="ExS-2Q-q4C" id="qvz-BR-ED4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rq7-9T-kFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="962.59541984732823" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

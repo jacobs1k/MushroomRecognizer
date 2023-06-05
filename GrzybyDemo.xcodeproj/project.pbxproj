@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F16BF1592A28EE1F00BE6D75 /* EadibleMushroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16BF1582A28EE1F00BE6D75 /* EadibleMushroomViewController.swift */; };
+		F16BF15B2A28F05900BE6D75 /* gifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16BF15A2A28F05900BE6D75 /* gifLoader.swift */; };
+		F16BF15D2A28F30600BE6D75 /* mushroomHappy.gif in Resources */ = {isa = PBXBuildFile; fileRef = F16BF15C2A28F30600BE6D75 /* mushroomHappy.gif */; };
+		F16BF15F2A29279A00BE6D75 /* poisonMushroom.gif in Resources */ = {isa = PBXBuildFile; fileRef = F16BF15E2A29279A00BE6D75 /* poisonMushroom.gif */; };
+		F1E643D32A27782F009A227B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E643D22A27782F009A227B /* AppDelegate.swift */; };
+		F1E643D52A27782F009A227B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E643D42A27782F009A227B /* SceneDelegate.swift */; };
+		F1E643D72A27782F009A227B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E643D62A27782F009A227B /* ViewController.swift */; };
+		F1E643DA2A27782F009A227B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E643D82A27782F009A227B /* Main.storyboard */; };
+		F1E643DC2A277830009A227B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E643DB2A277830009A227B /* Assets.xcassets */; };
+		F1E643DF2A277830009A227B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E643DD2A277830009A227B /* LaunchScreen.storyboard */; };
+		F1E643F32A27A827009A227B /* Mushrooms.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F1E643F22A27A827009A227B /* Mushrooms.mlmodel */; };
+		F1E643F82A27AEFD009A227B /* PredictionBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E643F72A27AEFD009A227B /* PredictionBrain.swift */; };
+		F1E643FA2A27B3DA009A227B /* DropdownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E643F92A27B3DA009A227B /* DropdownTableViewCell.swift */; };
+		F1E644002A27E992009A227B /* MushroomColumnData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E643FF2A27E992009A227B /* MushroomColumnData.swift */; };
+		F1E644022A27FAE3009A227B /* EndDataBeforeEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E644012A27FAE3009A227B /* EndDataBeforeEncoding.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F16BF1582A28EE1F00BE6D75 /* EadibleMushroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EadibleMushroomViewController.swift; sourceTree = "<group>"; };
+		F16BF15A2A28F05900BE6D75 /* gifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoader.swift; sourceTree = "<group>"; };
+		F16BF15C2A28F30600BE6D75 /* mushroomHappy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = mushroomHappy.gif; path = ../../../../../../../Downloads/mushroomHappy.gif; sourceTree = "<group>"; };
+		F16BF15E2A29279A00BE6D75 /* poisonMushroom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = poisonMushroom.gif; path = ../../../../../../../Downloads/poisonMushroom.gif; sourceTree = "<group>"; };
+		F1E643CF2A27782F009A227B /* GrzybyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrzybyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E643D22A27782F009A227B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1E643D42A27782F009A227B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1E643D62A27782F009A227B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1E643D92A27782F009A227B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1E643DB2A277830009A227B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1E643DE2A277830009A227B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1E643E02A277830009A227B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E643F22A27A827009A227B /* Mushrooms.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Mushrooms.mlmodel; sourceTree = "<group>"; };
+		F1E643F72A27AEFD009A227B /* PredictionBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionBrain.swift; sourceTree = "<group>"; };
+		F1E643F92A27B3DA009A227B /* DropdownTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownTableViewCell.swift; sourceTree = "<group>"; };
+		F1E643FF2A27E992009A227B /* MushroomColumnData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomColumnData.swift; sourceTree = "<group>"; };
+		F1E644012A27FAE3009A227B /* EndDataBeforeEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndDataBeforeEncoding.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1E643CC2A27782F009A227B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1E643C62A27782F009A227B = {
+			isa = PBXGroup;
+			children = (
+				F1E643D12A27782F009A227B /* GrzybyDemo */,
+				F1E643D02A27782F009A227B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1E643D02A27782F009A227B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1E643CF2A27782F009A227B /* GrzybyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1E643D12A27782F009A227B /* GrzybyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1E643F42A27AE7B009A227B /* Model */,
+				F1E643F52A27AE83009A227B /* View */,
+				F1E643F62A27AE88009A227B /* Controller */,
+				F1E643D42A27782F009A227B /* SceneDelegate.swift */,
+				F1E643D22A27782F009A227B /* AppDelegate.swift */,
+				F1E643DB2A277830009A227B /* Assets.xcassets */,
+				F1E643DD2A277830009A227B /* LaunchScreen.storyboard */,
+				F1E643E02A277830009A227B /* Info.plist */,
+			);
+			path = GrzybyDemo;
+			sourceTree = "<group>";
+		};
+		F1E643F42A27AE7B009A227B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F16BF15C2A28F30600BE6D75 /* mushroomHappy.gif */,
+				F16BF15E2A29279A00BE6D75 /* poisonMushroom.gif */,
+				F1E643F22A27A827009A227B /* Mushrooms.mlmodel */,
+				F1E643F72A27AEFD009A227B /* PredictionBrain.swift */,
+				F1E643FF2A27E992009A227B /* MushroomColumnData.swift */,
+				F1E644012A27FAE3009A227B /* EndDataBeforeEncoding.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1E643F52A27AE83009A227B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1E643D82A27782F009A227B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1E643F62A27AE88009A227B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1E643D62A27782F009A227B /* ViewController.swift */,
+				F1E643F92A27B3DA009A227B /* DropdownTableViewCell.swift */,
+				F16BF1582A28EE1F00BE6D75 /* EadibleMushroomViewController.swift */,
+				F16BF15A2A28F05900BE6D75 /* gifLoader.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1E643CE2A27782F009A227B /* GrzybyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E643E32A277830009A227B /* Build configuration list for PBXNativeTarget "GrzybyDemo" */;
+			buildPhases = (
+				F1E643CB2A27782F009A227B /* Sources */,
+				F1E643CC2A27782F009A227B /* Frameworks */,
+				F1E643CD2A27782F009A227B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrzybyDemo;
+			productName = GrzybyDemo;
+			productReference = F1E643CF2A27782F009A227B /* GrzybyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1E643C72A27782F009A227B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F1E643CE2A27782F009A227B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F1E643CA2A27782F009A227B /* Build configuration list for PBXProject "GrzybyDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1E643C62A27782F009A227B;
+			productRefGroup = F1E643D02A27782F009A227B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1E643CE2A27782F009A227B /* GrzybyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1E643CD2A27782F009A227B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E643DF2A277830009A227B /* LaunchScreen.storyboard in Resources */,
+				F16BF15D2A28F30600BE6D75 /* mushroomHappy.gif in Resources */,
+				F1E643DC2A277830009A227B /* Assets.xcassets in Resources */,
+				F16BF15F2A29279A00BE6D75 /* poisonMushroom.gif in Resources */,
+				F1E643DA2A27782F009A227B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1E643CB2A27782F009A227B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E643FA2A27B3DA009A227B /* DropdownTableViewCell.swift in Sources */,
+				F16BF15B2A28F05900BE6D75 /* gifLoader.swift in Sources */,
+				F1E643F32A27A827009A227B /* Mushrooms.mlmodel in Sources */,
+				F1E644002A27E992009A227B /* MushroomColumnData.swift in Sources */,
+				F1E643D72A27782F009A227B /* ViewController.swift in Sources */,
+				F1E643F82A27AEFD009A227B /* PredictionBrain.swift in Sources */,
+				F16BF1592A28EE1F00BE6D75 /* EadibleMushroomViewController.swift in Sources */,
+				F1E643D32A27782F009A227B /* AppDelegate.swift in Sources */,
+				F1E643D52A27782F009A227B /* SceneDelegate.swift in Sources */,
+				F1E644022A27FAE3009A227B /* EndDataBeforeEncoding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1E643D82A27782F009A227B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E643D92A27782F009A227B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1E643DD2A277830009A227B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E643DE2A277830009A227B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1E643E12A277830009A227B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1E643E22A277830009A227B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E643E42A277830009A227B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GrzybyDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mushroom Recognizer";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MushroomRecognizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1E643E52A277830009A227B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GrzybyDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mushroom Recognizer";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MushroomRecognizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1E643CA2A27782F009A227B /* Build configuration list for PBXProject "GrzybyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E643E12A277830009A227B /* Debug */,
+				F1E643E22A277830009A227B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E643E32A277830009A227B /* Build configuration list for PBXNativeTarget "GrzybyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E643E42A277830009A227B /* Debug */,
+				F1E643E52A277830009A227B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1E643C72A27782F009A227B /* Project object */;
+}
